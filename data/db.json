@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "Post 1",
+      "body": "lorem ipsum lorem ipsum",
+      "author": "Mario",
+      "id": 1
+    },
+    {
+      "title": "Post 2",
+      "body": "lorem ipsum lorem ipsum",
+      "author": "Luigi",
+      "id": 2
+    }
+  ]
+}

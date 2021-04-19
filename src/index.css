@@ -34,7 +34,8 @@
   padding: 20px;
 }
 
-.blog-preview {
+.blog-preview,
+.blog-detail {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
@@ -44,8 +45,76 @@
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-.blog-preview h2 {
+.blog-preview h2,
+.blog-detail h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-detail span {
+  font-weight: bold;
+}
+
+.blog-detail article {
+  margin-top: 10px;
+}
+
+.create {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.input-controller {
+  margin: 10px;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 0.5rem;
+  border: 0;
+  outline: none;
+  border: 1px solid #111;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+button {
+  width: 60%;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid #111;
+  background-color: rgb(241, 53, 109);
+  color: white;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(241, 53, 109, 0.9);
+  transform: scale(1.01);
+}
+
+a {
+  text-decoration: none;
+}
+
+.delBtn {
+  padding: 5px 5px;
+  width: 20%;
+  margin-top: 10px;
 }

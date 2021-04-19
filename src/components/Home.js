@@ -2,7 +2,10 @@ import useFetch from "../hooks/useFetch";
 import Post from "./Post";
 
 const Home = () => {
-  const { loading, data, error } = useFetch("http://localhost:8000/posts");
+  const { loading, data, error } = useFetch(
+    "http://localhost:8000/posts",
+    "GET"
+  );
   return (
     <div className="home">
       {error && <div>{error}</div>}
